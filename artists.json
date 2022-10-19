@@ -2,13 +2,11 @@
     {
         "id": 1,
         "name": "Médine",
-        "type": "Rap",
         "description": "blablabla"
     },
     {
         "id": 2,
         "name": "Younés",
-        "type": "Rap",
         "description": "blablabla"
     }
 ]
