@@ -2,11 +2,26 @@
     {
         "id": 1,
         "name": "Médine",
-        "description": "blablabla"
+        "description": "blablabla",
+        "_links": {
+            "categories": [
+                {
+                    "href": "http://localhost/categories/1"
+                },
+                {
+                    "href": "http://localhost/categories/2"
+                }
+            ]
+        }
     },
     {
         "id": 2,
         "name": "Younés",
-        "description": "blablabla"
+        "description": "blablabla",
+        "_links": {
+            "record": {
+                "href": "http://localhost/records/1"
+            }
+        }
     }
 ]

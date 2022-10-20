@@ -1,0 +1,16 @@
+openapi: 3.0.3
+info:
+  title: Swagger Artistes
+  version: "1.0.0"
+paths:
+  /artists:
+    get:
+      description: retourne une liste d'artistes
+      responses:
+        200:
+          description: retourne une liste d'artistes.
+    post:
+      description: créé un artiste
+      responses:
+        200:
+          description: créé un artiste
